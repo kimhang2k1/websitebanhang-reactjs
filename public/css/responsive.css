@@ -528,13 +528,14 @@
     left: 25%;
   } */
   .content-banner-sale {
-   top: 25%;
-   left: 50%;
-   transform: translate(-50%);
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%);
 }
   .list-news-product {
-     width: 82%;
-     padding-left: 10px;
+      width: 86%;
+      padding-left: 10px;
+      padding-right: 30px;
   }
   .nav-footer {
     width: 82%;
@@ -612,8 +613,11 @@
       width: 90%;
       margin: auto;
       padding-right: 90px;
-      padding-left: 20px;
+      padding-left: 13px;
   
+   }
+   .news-of-product {
+
    }
    .information-wandave {
       padding-right: 1px;
