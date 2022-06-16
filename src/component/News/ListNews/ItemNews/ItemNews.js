@@ -1,6 +1,6 @@
 function ItemNews(props) {
   return (
-    <div className="item-news-product">
+    <div className={`item-news-product ${props.item} `}>
       <div className="image-news">
         <a href="{}">
           <img src={props.image} alt="blog-1" />
