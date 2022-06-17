@@ -1,14 +1,14 @@
 function BannerSale() {
   return (
-    <div className="img-banner-sale">
-      <div className="banner-sale-30">
+    <div className="banner-sale-30">
+      <div className="img-banner-sale">
         <img
           className="banner-desktop"
           src="http://theme.hstatic.net/200000389561/1000743597/14/banner-desktop.jpg?v=220"
           alt="giảm-giá"
         />
         <img
-          className="banner-mobile hidden"
+          className="banner-mobile"
           src="//theme.hstatic.net/200000389561/1000743597/14/banner-mobile.jpg?v=220"
           alt="banner-mobile"
         />
