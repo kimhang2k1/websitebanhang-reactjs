@@ -11,7 +11,7 @@ function ListMenuMobile() {
           <Link to="/">Trang chủ</Link>
         </li>
         <li className="product-menu-mob">
-          <Link to="/">Sản Phẩm</Link>
+          <Link to="/product">Sản Phẩm</Link>
           <button
             className="btn-plus"
             aria-expanded="false"

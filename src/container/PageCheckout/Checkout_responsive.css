@@ -15,6 +15,7 @@
     .price_product_order {
         width: 25%;
     }
+
         
   
   }
@@ -39,6 +40,9 @@
         font-size: 14px;
        
     }
+    .name_product_order p , .price_product_order {
+        font-size: 15px;
+    }
     .infor_order {
         width: 75%;
     }
@@ -47,10 +51,17 @@
         display: flex;
         justify-content: flex-end;
     }
+    .image_product_order img {
+        width: 80px;
+    }
+    .container_list_order h3 {
+        font-size: 18px;
+    }
     .footer_line_order {
         font-size: 16px;
        
     }
+    
   
 
        
@@ -70,10 +81,14 @@
         display: flex;
         justify-content: flex-end;
     }
+    .container_list_order h3 {
+        font-size: 18px;
+    }
     .footer_line_order {
         font-size: 16px;
        
     }
+
   
  }
  
@@ -88,6 +103,9 @@
     .price_product_order {
         display: flex;
         justify-content: flex-end;
+    }
+    .container_list_order h3 {
+        font-size: 18px;
     }
  }
  

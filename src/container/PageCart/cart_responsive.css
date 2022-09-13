@@ -40,6 +40,7 @@
    .row_cart_mobile {
         width: 70%;
         justify-content: space-between;
+        gap: 35px;
     }
     .amount_cart_mobile {
         margin-top: 15px;

@@ -27,6 +27,9 @@ function ContextData({ children }) {
   const [error, setError] = useState(null);
   const [errorPhone, setErrorPhone] = useState(null);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // hiển thị sản phẩm
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
