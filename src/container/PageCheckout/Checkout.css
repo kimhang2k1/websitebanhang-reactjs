@@ -103,8 +103,9 @@
 }
 .image_product_order img {
     width: 40px;
-    height: auto;
+    height: 40px;
     margin: auto;
+    object-fit: contain;
 }
 .image_product_order span {
     position: absolute;
@@ -153,6 +154,7 @@
 .footer_line_order {
     padding-left: 10px;
     font-size: 16px;
+    align-items: center;
 }
 .return_to_cart {
     color: indianred;

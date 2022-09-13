@@ -8,9 +8,7 @@
     .information_customer_order, .container_list_order, .delivery_information, .payment_and_shipping {
         width: 100%;
     }
-    .image_product_order img {
-        width: 115px;
-    }
+   
     .infor_order {
         width: 75%;
     }
@@ -22,7 +20,7 @@
   }
 @media screen and (max-width: 576px){
     .payment {
-        width: 90%;
+        width: 95%;
      }
     /* responsive product*/
     .container_payment form, .information_customer_order {
@@ -30,6 +28,28 @@
     }
     .information_customer_order, .container_list_order, .delivery_information, .payment_and_shipping {
         width: 100%;
+    }
+    .payment_method {
+        height: 75px;
+    }
+    .total_line_table, .total_summary, .footer_line_order {
+        padding-left: 0px;
+    }
+    .footer_line_order {
+        font-size: 14px;
+       
+    }
+    .infor_order {
+        width: 75%;
+    }
+    .price_product_order {
+        width: 25%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .footer_line_order {
+        font-size: 16px;
+       
     }
   
 
@@ -46,6 +66,14 @@
     .information_customer_order, .container_list_order, .delivery_information, .payment_and_shipping {
         width: 100%;
     }
+    .price_product_order {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .footer_line_order {
+        font-size: 16px;
+       
+    }
   
  }
  
@@ -56,6 +84,10 @@
     }
     .information_customer_order, .container_list_order, .delivery_information, .payment_and_shipping {
         width: 100%;
+    }
+    .price_product_order {
+        display: flex;
+        justify-content: flex-end;
     }
  }
  
@@ -90,7 +122,14 @@
         overflow: hidden;
         text-overflow: ellipsis;
      }
-   
+     .price_product_order {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .footer_line_order {
+        font-size: 16px;
+       
+    }
    
  }
  
@@ -120,6 +159,10 @@
         overflow: hidden;
         text-overflow: ellipsis;
      }
+     .price_product_order {
+        display: flex;
+        justify-content: flex-end;
+    }
    
  }
  
@@ -135,6 +178,10 @@
       overflow: hidden;
       text-overflow: ellipsis;
    }
+   .price_product_order {
+    display: flex;
+    justify-content: flex-end;
+}
  }
  
  @media screen  and (min-width : 1920px) {
@@ -166,6 +213,10 @@
         overflow: hidden;
         text-overflow: ellipsis;
      }
+     .price_product_order {
+        display: flex;
+        justify-content: flex-end;
+    }
    
  }
  
