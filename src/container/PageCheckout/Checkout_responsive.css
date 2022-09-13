@@ -1,0 +1,197 @@
+@media screen and (min-width: 320px) and (max-width:480px) {
+   .payment {
+        width: 95%;
+    }
+   .container_payment form, .information_customer_order {
+        display: block;
+     }
+    .information_customer_order, .container_list_order, .delivery_information, .payment_and_shipping {
+        width: 100%;
+    }
+    .image_product_order img {
+        width: 115px;
+    }
+    .infor_order {
+        width: 75%;
+    }
+    .price_product_order {
+        width: 25%;
+    }
+        
+  
+  }
+@media screen and (max-width: 576px){
+    .payment {
+        width: 90%;
+     }
+    /* responsive product*/
+    .container_payment form, .information_customer_order {
+        display: block;
+    }
+    .information_customer_order, .container_list_order, .delivery_information, .payment_and_shipping {
+        width: 100%;
+    }
+  
+
+       
+ 
+ }
+ @media screen and (min-width: 576px) and (max-width:767.98px) {
+    .payment {
+        width: 90%;
+     }
+    .container_payment form, .information_customer_order {
+        display: block;
+    }
+    .information_customer_order, .container_list_order, .delivery_information, .payment_and_shipping {
+        width: 100%;
+    }
+  
+ }
+ 
+ @media(min-width :768px) and (max-width:992px) {
+
+    .container_payment form, .information_customer_order {
+        display: block;
+    }
+    .information_customer_order, .container_list_order, .delivery_information, .payment_and_shipping {
+        width: 100%;
+    }
+ }
+ 
+ 
+ @media screen  and (min-width : 992px) {
+    .payment {
+        width: 90%;
+     }
+    .information_customer_order {
+        width: 65%;
+        gap: 35px;
+    }
+    .container_list_order {
+        width: 35%;
+
+    }
+    .payment_and_shipping {
+        width: 60%;
+    }
+    .infor_order {
+        width: 75%;
+    }
+    .price_product_order {
+        width: 25%;
+        margin-top: -10px;
+    }
+    .name_product_order {
+        width: 70%;
+     }
+     .name_product_order p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+     }
+   
+   
+ }
+ 
+ @media screen  and (min-width : 1024px) {
+    .payment {
+        width: 90%;
+     }
+    .information_customer_order {
+        width: 70%;
+        gap: 35px;
+    }
+    .container_list_order {
+        width: 30%;
+
+    }
+    .infor_order {
+        width: 70%;
+    }
+    .price_product_order {
+        width: 25%;
+    }
+    .name_product_order {
+        width: 70%;
+     }
+     .name_product_order p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+     }
+   
+ }
+ 
+ @media screen and (min-width : 1200px) {
+   .payment {
+      width: 90%;
+   }
+   .name_product_order {
+      width: 70%;
+   }
+   .name_product_order p {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+ }
+ 
+ @media screen  and (min-width : 1920px) {
+    .payment {
+        width: 80%;
+     }
+     .payment {
+        width: 90%;
+     }
+    .information_customer_order {
+        width: 70%;
+        gap: 35px;
+    }
+    .container_list_order {
+        width: 30%;
+
+    }
+    .infor_order {
+        width: 70%;
+    }
+    .price_product_order {
+        width: 25%;
+    }
+    .name_product_order {
+        width: 70%;
+     }
+     .name_product_order p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+     }
+   
+ }
+ 
+ @media screen and (min-width : 1200px) {
+    .payment {
+        width: 80%;
+     }
+    .information_customer_order {
+        width: 60%;
+    }
+    .container_list_order {
+        width: 40%;
+
+    }
+    .name_product_order p {
+        white-space: unset;
+    }
+    .price_product_order {
+        display: flex;
+        justify-content: flex-end;
+    }
+   
+    
+  
+ }
+ 
+ 
+ 
+ 

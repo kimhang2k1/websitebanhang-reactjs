@@ -1,0 +1,48 @@
+.bread-crumb {
+    background-color: #f8f8f8;
+    color: black;
+    height: 35px;
+    line-height: 35px;
+}
+
+.nav-bread-crumb {
+    width: 80%;
+    margin: auto;
+}
+.nav-bread-crumb ul {
+    display: flex;
+}
+.nav-bread-crumb ul li {
+    padding-right: 10px;
+}
+
+.nav-product {
+    width: 80%;
+    margin: auto;
+}
+.banner-product {
+    margin-top: 30px;
+}
+.collection-product {
+     margin-top: 15px;
+}
+.sort-by-product {
+    display: flex;
+    
+}
+.filter-product {
+    margin-bottom: 30px;
+}
+.filter-by-category {
+    margin-right: 50px;
+}
+.filter-by-category select, .filter-by-price select {
+    width: 215px;
+    height: 35px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+}
+.filter-by-category span, .filter-by-price span {
+    padding-right: 15px;
+}
+

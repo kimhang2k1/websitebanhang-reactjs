@@ -1,0 +1,193 @@
+.payment {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.container_payment, .information_customer_order, form {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+}
+.input_radio_payment {
+  
+    display: flex;
+}
+.input_radio_payment input {
+   margin-right: 15px;
+}
+.information_customer_order {
+    width: 60%;
+    
+}
+.delivery_information, .payment_and_shipping {
+    width: 50%;
+}
+.delivery_information h3 {
+    font-size: 21px;
+    font-weight: 600;
+}
+.infor_customer {
+    line-height: 65px;
+}
+.payment_and_shipping {
+    margin-top: 13px;
+}
+.money_shipping p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.money_shipping {
+    margin-bottom: 30px;
+}
+.box_alert {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.input_fullname_customer input, .input_phone_customer input, .input_email_customer input, .input_apartment_customer input {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.filter_city select, .filter_district select, .filter_village select  {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.note_order textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 100px;
+    padding-left: 10px;
+}
+.container_list_order {
+    width: 40%;
+}
+.container_list_order h3 {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.list_product_order {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.item_product_order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 35px;
+}
+.infor_order {
+    display: flex;
+    align-items: center;
+
+}
+.image_product_order {
+    border: 1px solid #ccc;
+    padding: 5px 10px 5px 10px;
+    margin-right: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image_product_order img {
+    width: 40px;
+    height: auto;
+    margin: auto;
+}
+.image_product_order span {
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    background-color: indianred;
+    color: white;
+    width: 21px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 13px;
+}
+.name_product_order p, .price_product_order  {
+    font-size: 16px;
+   
+}
+.price_product_order {
+    margin-top: -15px;
+    color:darkred;
+}
+.provisional_product, .shipping_fee, .total_summary, .footer_line_order, .payment_method{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total_line_table {
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.total_summary {
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.price_total_order {
+    color:darkred;
+    font-weight: 600;
+}
+.footer_line_order {
+    padding-left: 10px;
+    font-size: 16px;
+}
+.return_to_cart {
+    color: indianred;
+}
+.btn_checkout button {
+    width: 125px;
+    height: 40px;
+    background-color: indianred;
+    color: white;
+    border-radius: 5px;
+}
+.payment_method {
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+.cod_payment {
+    padding-right: 25px;
+}
+.input_radio_payment {
+
+}
+.content_payment_ismethod {
+    background-color: #f8f8f8;
+    height: 90px;
+    line-height: 90px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.error_message {
+    color: red;
+    line-height: 35px;
+    padding-left: 15px;
+}

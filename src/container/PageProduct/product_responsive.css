@@ -1,0 +1,49 @@
+
+@media screen and (max-width: 576px){
+    /* responsive product*/
+ 
+    .nav-product {
+       width: 92%;
+    }
+    
+
+       
+ 
+ }
+ @media screen and (min-width: 576px) and (max-width:767.98px) {
+    
+     /* responsive product*/
+     .nav-product {
+       width: 92%;
+    }
+  
+ }
+ 
+ @media(min-width :768px) and (max-width:992px) {
+   
+ }
+ 
+ 
+ @media screen  and (min-width : 992px) {
+    
+   
+ }
+ 
+ @media screen  and (min-width : 1024px) {
+
+    /* responsive product */
+   
+ }
+ 
+ @media screen and (min-width : 1200px) {
+  
+ }
+ 
+ @media screen  and (min-width : 1920px) {
+    /* responsive product */
+  
+ }
+ 
+ 
+ 
+ 
